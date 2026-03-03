@@ -1,5 +1,5 @@
-**Gauss-Seidel Load Flow Analysis
-**
+**Gauss-Seidel Load Flow Analysis**
+
 This repository contains a set of MATLAB functions designed to solve the power flow problem for a 6-bus electrical power system. The simulation calculates bus voltage magnitudes and phase angles based on given generation and load parameters.
 
 **Files Included**
@@ -16,7 +16,8 @@ Bus 1: Slack Bus.
 Buses 2 & 3: PV (Generator) Buses with specified voltage setpoints and real power injection.
 Buses 4, 5, & 6: PQ (Load) Buses with defined real and reactive power demands.
 
-**** How to Run****
+**How to Run**
+
  Ensure all .m files are in the same MATLAB directory.
  Open gaussiedal.m.Run the script.
  The command window will display:The total number of iterations required for convergence.
